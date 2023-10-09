@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+.outerBox{
+    width: 100%;
+    height: 100vh;
+    background-color:#04364A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.innerBox
+{
+    width: 400px;
+    height: 450px;
+    background-color: #176B87;
+    border-radius: 4px;
+    
+}
+
+.unit
+{
+    display: flex;
+}
+
+
+.cel
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #64CCC5;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color:  #04364A;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.wrap
+{
+    width: 300px;
+    height: 300px;
+    background-color:#176B87;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+
+.inp
+{
+    flex: 1;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+border: none;
+}
+
+.temp h1{
+    font-size: 30px;
+    margin-right: 10px;
+    color: white
+   
+}
+
+.temp
+{
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    align-items: baseline;
+    justify-content: center;
+    align-items: center;
+}
+.temp i{
+    font-size: larger;
+    color: white;
+}
+
+.btn
+{
+    width: 100%;
+    border: none;
+}
+
+.reset-btn
+{
+    width: 110px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #64CCC5;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    opacity: 0.7;
+
+}
+
+.reset-btn:hover{
+    opacity: 1;
+}
+.reset-btn:focus {
+    outline: none !important;
+}
